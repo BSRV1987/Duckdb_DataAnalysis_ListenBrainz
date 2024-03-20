@@ -8,6 +8,14 @@ GitHub<br>
 Gitpod<br>
 VisualstudioCode<br>
 
+# Requirements
+
+duckdb
+pandas
+matplotlib
+Git LFS (if we are storing txt file in the repo)
+
+
 # Files and their functionality
 
 1 ./DataIngestion/LoadDataset.py --> This is used setup a connection to duckdb and ingest listenbrainz data into a table. A data model can be defined further to break down this data into multiple tables using dimensional modelling. For this task we can achieve the results using sql queries.

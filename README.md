@@ -18,34 +18,34 @@ Git LFS (if we are storing txt file in the repo)
 
 # Files and their functionality
 
-1 ./DataIngestion/LoadDataset.py --> This is used setup a connection to duckdb and ingest listenbrainz data into a table. A data model can be defined further to break down this data into multiple tables using dimensional modelling. For this task we can achieve the results using sql queries.
+1 ./DataIngestion/LoadDataset.py --> This is used setup a connection to duckdb and ingest listenbrainz data into a table. A data model can be defined further to break down this data into multiple tables using dimensional modelling. For this task we can achieve the results using sql queries.<br>
 
-2. ./DataAnalysis/Task2_a_summary.py --> This is used to highlight first look at the data. Understand the granularity and display summary based on ListenBrainz.db(duckdb) that is storing the data integrated in above step.
+2. ./DataAnalysis/Task2_a_summary.py --> This is used to highlight first look at the data. Understand the granularity and display summary based on ListenBrainz.db(duckdb) that is storing the data integrated in above step.<br>
 
-3. ./DataAnalysis/Task2_b_summary.py --> This is used to share information that is needed for clustering of users by providing important features 
+3. ./DataAnalysis/Task2_b_summary.py --> This is used to share information that is needed for clustering of users by providing important features <br>
 
-4. ./DataAnalysis/Task2_c_UserActivity_Analysis.py --> This is used to answer few important questions by running queries against duckdb database.
+4. ./DataAnalysis/Task2_c_UserActivity_Analysis.py --> This is used to answer few important questions by running queries against duckdb database.<br>
 
 5. ./DataAnalysis/Task3_ManagementReport.py --> This is used calculate important metrics from the data by using sql commmands on duckdb and visualise the same using graphs. <br>
 
-a. The other metrics that are currently not available but could be made available are :  
+    a. The other metrics that are currently not available but could be made available are :  
 
-i. Genre: At the moment there is only track name and artist name available if genre is also available , this would help in targeted campaigns<br>
+    i. Genre: At the moment there is only track name and artist name available if genre is also available , this would help in targeted campaigns<br>
 
-ii. rating : It is currently populated as blank in the given data set. If this is populated , then it would help in promoting highly rated songs by all users.<br>
+    ii. rating : It is currently populated as blank in the given data set. If this is populated , then it would help in promoting highly rated songs by all users.<br>
 
-iii. Geographic location: This is most important column that needs to be available in order understand preferences of users based on their geographic location and optimising campaigns. <br>
+    iii. Geographic location: This is most important column that needs to be available in order understand preferences of users based on their geographic location and optimising campaigns. <br>
 
-b. The other metrics that I have choosen are 
+    b. The other metrics that I have choosen are 
 
-i.Total_TracksPlayed<br>
-ii.Unique_Tracks_Played<br>
-iii.Total_ListeningTime_InHours<br>
-iv.Avg_listening_freq_InMins_byMonth<br>
-v.Avg_hour_of_activity<br>
-vi.Avg_Min_of_activity<br>
+    i.Total_TracksPlayed<br>
+    ii.Unique_Tracks_Played<br>
+    iii.Total_ListeningTime_InHours<br>
+    iv.Avg_listening_freq_InMins_byMonth<br>
+    v.Avg_hour_of_activity<br>
+    vi.Avg_Min_of_activity<br>
 
-The reason for choosing these metrics as they provide an overview of user activity on the platform. The unique tracks gives insight into diversity of tracks played by users.Average hour and min tells using during which time of the day users generally use the platform. Avg listening freq can be used to understand peaks during certain months especially during winter months and better tailor content
+    The reason for choosing these metrics as they provide an overview of user activity on the platform. The unique tracks gives insight into diversity of tracks played by users.Average hour and min tells using during which time of the day users generally use the platform. Avg listening freq can be used to understand peaks during certain months especially during winter months and better tailor content
 
 <br>
 Outputs : <br>

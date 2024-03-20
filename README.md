@@ -10,10 +10,10 @@ VisualstudioCode<br>
 
 # Requirements
 
-duckdb
-pandas
-matplotlib
-Git LFS (if we are storing txt file in the repo)
+duckdb<br>
+pandas<br>
+matplotlib<br>
+Git LFS (if we are storing txt file in the repo)<br>
 
 
 # Files and their functionality

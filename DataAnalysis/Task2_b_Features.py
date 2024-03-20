@@ -20,3 +20,6 @@ df_features = pd.DataFrame(result)
 
 # print features dataframe
 print(df_features)
+
+
+ddb_con.close()

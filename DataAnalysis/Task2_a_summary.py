@@ -39,3 +39,5 @@ for i in range(len(result.columns)):
 
 # Save the plot as an image file
 plt.savefig('summary_metrics_tiles.png')
+
+ddb_con.close()

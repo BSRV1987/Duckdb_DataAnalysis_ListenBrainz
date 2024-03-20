@@ -1,6 +1,6 @@
 import duckdb
 import os
-import pandas as pd
+
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
@@ -30,3 +30,4 @@ ddb_con.sql("WITH CTE_FirstActivity As (select user_name,track_name,row_number()
 
 
 
+ddb_con.close()

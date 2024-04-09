@@ -22,7 +22,7 @@ Git LFS (if we are storing txt file in the repo)<br>
 
 2. ./DataAnalysis/a_summary.py --> This is used to highlight first look at the data. Understand the granularity and display summary based on ListenBrainz.db(duckdb) that is storing the data integrated in above step.<br>
 
-3. ./DataAnalysis/b_summary.py --> This is used to share information that is needed for clustering of users by providing important features <br>
+3. ./DataAnalysis/b_features.py --> This is used to share information that is needed for clustering of users by providing important features <br>
 
 4. ./DataAnalysis/c_UserActivity_Analysis.py --> This is used to answer few important questions by running queries against duckdb database.<br>
 

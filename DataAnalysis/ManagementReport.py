@@ -90,7 +90,7 @@ plt.xticks(result['LastDayOfMonth'], rotation=45)
 
 plt.tight_layout()
 # Save the plot as an image file
-plt.savefig('Management_Report.png')
+plt.savefig('Report.png')
 
 
 

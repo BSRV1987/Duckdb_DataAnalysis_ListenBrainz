@@ -15,7 +15,7 @@ def CreateConnection():
 
 ddb_con = CreateConnection()
 
-# Answers to Questions asked by CEO
+# 
 print("1.Top 10 most active users")
 ddb_con.sql("select user_name,count(*) from Tracks group by user_name order by 2 desc LIMIT 10").show()
 

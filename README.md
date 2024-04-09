@@ -2,6 +2,8 @@
 
 # A sample repository to showcase ingestion of publicly available listenbrainz data and perform analysis using duckdb. 
 
+# Data is already inserted into ListenBrainz.db in a schema
+
 # Environment recommended
 
 GitHub<br>

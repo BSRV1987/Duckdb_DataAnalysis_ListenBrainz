@@ -1,6 +1,6 @@
 # Duckdb_DataAnalysis_ListenBrainz
 
-# A sample repository to showcase ingestion of listenbrainz data and perform analysis using duckdb. 
+# A sample repository to showcase ingestion of publicly available listenbrainz data and perform analysis using duckdb. 
 
 # Environment recommended
 
